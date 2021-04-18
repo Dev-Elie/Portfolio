@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+
+<head>
+    <!--TITLE-->
+    <title>Dev Elie</title>
+
+    <!--ICON-->
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico"/>
+
+    <!--META TAGS-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="author" content="Dev Elie">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="Dev-Elie" />
+
+    <!-- JQUERY -->
+    <script src="./scripts/jquery.js"></script>
+    <!--EXTERNAL CSS-->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/w3.css">
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- BOOTSTRAP JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+        integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
+        crossorigin="anonymous"></script>
+
+    <!--FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/f8c35ce017.js" crossorigin="anonymous"></script>
+    <link rel='stylesheet prefetch'
+        href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fredoka+One&family=Kanit:wght@300&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<!-- IF LOADER NEEDED -->
+
+<body onload="myLoader()">
+    <div class="loading" id="loader">
+        <div class="load">
+            <div class="loader">
+            </div>
+        </div>
+    </div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+
+        <!--NAV-BAR-->
+        <header>
+            <div class="topnav" id="myTopnav">
+                <a class="logo">Dev Elie</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#projects">Projects</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+                <a href="#home" class="active">Home</a>
+                <a href="javascript:void(0);" style="font-size:25px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </header>
+        <div id="navbar">
+            <div class="slide-menu">
+                <a class="logo">Dev Elie</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#projects">Projects</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+                <a href="#home" class="active">Home</a>
+            </div>
+        </div>
+
+        <!--MAIN-->
+        <a id="home"></a>
+
+        <div class="main">
+            <table>
+                <tr>
+                    <td>
+                        <!-- <img src="./images/undraw_Design_thinking_re_644h(1).svg" class="landing-img-left"> -->
+                        <section>
+                            <h5 class="sub-title">Hi, Looking for a Developer ?</h5>
+                            <h1 class="title">I'm Ondiek Elijah <br>
+                                A Software Developer</h1>
+                            <p>Where Design and Creativity meets Expertise</p>
+                            <a href="#contact" class="hire-btn">Hire Me</a>
+                            <a href="https://dev-elie.netlify.app/" class="download-cv-btn">Download CV</a>
+
+                        </section>
+                    </td>
+                    <td>
+                        <img src="./images/dev4.svg" class="inline-photo show-on-scroll" alt="Landing img">
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="container quote">
+            <p class="author-quote">“A designer knows he has achieved perfection not when there is nothing left to
+                add,
+                but when there is nothing left to take away.”</p>
+            <p class="author"> – Antoine de Saint-Exupéry</p>
+        </div>
+
+        <!--ABOUT CONTAINER-->
+        <label id="about"></label>
+        <div class="about">
+            <div class="row about-me">
+                <div class="col-md-6 text-center">
+                    <img src="./images/Dev-Elie.png" alt="Dev-Elie" class="profile-img">
+                    <div class="bottom-left-shape w3-hide-small">
+                        <img src="./images/Designer_by46.svg">
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <!-- <div class="top-right-shape">
+                        <img src="./images/undraw_Design_thinking_re_644h(1).svg">
+                    </div> -->
+                    <h3 class="section-title">About Me</h3>
+                    <p class="about-me-text">
+                        I am an enthusiastic and creative software developer with experience developing web-based
+                        software.
+                        I am focused on developing and enhancing immersive, user-friendly, and feature-rich
+                        websites.I
+                        apply
+                        analytical skills and a keen eye for detail to create unique and effective web development
+                        solutions, provide technical skills and knowledge, design new websites from the ground up,
+                        and
+                        effectively lead a software developer team.
+                    </p>
+                    <div class="social-media-icons">
+                        <ul class="social-network social-circle">
+                            <li><a href="https://www.facebook.com/ondiek.elijah/" class="icoFacebook"
+                                    title="Facebook"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="https://twitter.com/dev_elie" class="icoTwitter" title="Twitter"><i
+                                        class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/ondiek-elijah-2aaba4198/" class="icoLinkedin"
+                                    title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://github.com/Dev-Elie" class="icoGit" title="Github"><i
+                                        class="fa fa-github"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- EXPERTISE -->
+        <label id="services"></label>
+        <div class="services">
+            <div class="services-main container-fluid">
+                <h3 class="w3-center section-title">My Expertise</h3>
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <img src="./images/web-design.svg" alt="web design">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service-content">
+                            <h4>Web Development</h4>
+                            <p class="service-description">
+                                I excel in full-stack web development with a solid background in Python-Flask framework,
+                                React Js, MongoDB and MySQL.I deliver current and outstanding projects that match client
+                                expectations as much as design, and functionality, responsiveness, SEO optimisation
+                                and UI is concerned.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-center order-md-last">
+                        <img src="./images/data-analysis.svg" alt="data-analysis">
+                    </div>
+                    <div class="col-md-6 order-md-first">
+                        <div class="service-content">
+                            <h4>Data Analysis</h4>
+                            <p class="service-description">
+                                As an aspiring data science apprentice, I apply the Setting Objective, how, What data to
+                                be Analysed,fact clustering technique to realise my goal as a data analyst. I
+                                utilise a series of python data analytic tools like pandas, NumPy and matplotlib and
+                                appending more to the list as I advance.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <img src="./images/web-scraping.svg" alt="web scraping">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service-content">
+                            <h4>Web Crawling & Scraping</h4>
+                            <p class="service-description">
+                                As a welcome additional skill set to a data analyst and for the need to be dynamic and
+                                take on more cross-functional roles to help grow businesses using data-driven decisions,
+                                The technical know-how of web scraping and crawling comes in handy enhancing efficiency.
+                                My crawling and scraping skills are concise to libraries like beautiful soup and
+                                scrappy.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- PROJECTS -->
+            <label id="projects"></label>
+            <div class="projects">
+                <h3 class="w3-center section-title">My Work</h3>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="img-overlay">
+                            <img src="./images/projects/blog.png" alt="Blog" class="img-overlay-image">
+                            <div class="overlay">
+                                <div class="text">
+                                    <p>Blog Website</p>
+                                    <p class="project-description">A Fully functional personal blog Website developed
+                                        using python-flask framework.
+                                    </p>
+                                    <a href="https://github.com/Dev-Elie/Teksade-Blog" class="view-project">View
+                                        Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="img-overlay">
+                            <img src="./images/projects/japu.png" alt="Japu" class="img-overlay-image">
+                            <div class="overlay">
+                                <div class="text">
+                                    <p>Japu Dreadlocks Salon</p>
+                                    <p class="project-description">Japu Dreadlock Salon Website. A one-stop dreadlocks
+                                        salon in
+                                        Kasarani,Nairobi-Kenya </p>
+                                    <a href="https://japudreadlockz.com/" class="view-project">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="img-overlay">
+                            <img src="./images/projects/gs-crawler.png" alt="gs-crawler" class="img-overlay-image">
+                            <div class="overlay">
+                                <div class="text">
+                                    <p>Web Crawler for Google Scholar</p>
+                                    <p class="project-description">An advanced web crawler for google scholar profiles
+                                        for authors from Coventry
+                                        University. Also consists of a vertical search engine like google scholar</p>
+                                    <a href="https://github.com/Dev-Elie/Web-Crawler-for-Google-Scholar"
+                                        class="view-project">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="img-overlay">
+                            <img src="./images/projects/simpe-crawler.png" alt="Simple crawler"
+                                class="img-overlay-image">
+                            <div class="overlay">
+                                <div class="text">
+                                    <p>Simple Web Crawler</p>
+                                    <p class="project-description">A simple web crawler built using python-flask and
+                                        beautiful soup that extracts
+                                        elements using tag names,provided a URL</p>
+                                    <a href="https://github.com/Dev-Elie/Simple-Web-Crawler" class="view-project">View
+                                        Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="img-overlay">
+                            <img src="./images/projects/slww.png" alt="slww" class="img-overlay-image">
+                            <div class="overlay">
+                                <div class="text">
+                                    <p>Search|Weather|Location|Synonyms App</p>
+                                    <p class="project-description">A all in one Search application,Weather
+                                        finder,Wordnet Synonym/Antonym App and a
+                                        Location finder application. Implemented using python Flask. </p>
+                                    <a href="https://github.com/Dev-Elie/Search-Weather-Wordnet-Location-Web-App"
+                                        class="view-project">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="img-overlay">
+                            <img src="./images/projects/resume.png" alt="resume" class="img-overlay-image">
+                            <div class="overlay">
+                                <div class="text">
+                                    <p>Resume</p>
+                                    <p class="project-description">A simple,modern and responsive resume. </p>
+                                    <a href="https://dev-elie.netlify.app/" class="view-project">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- TESTIMONIALS -->
+            <label id="testimonials"></label>
+            <div class="testimonials">
+                <h3 class="w3-center section-title">Testimonials</h3>
+                <div class="quote-2">
+                    <p class="author-quote-2">“Optimism is an occupational hazard of programming: feedback
+                        is the
+                        treatment.”</p>
+                    <p class="author"> – Kent Beck</p>
+                </div>
+                <!-- Testimonials -->
+                <section class="testimonial text-center">
+                    <div class="container">
+                        <div id="testimonial4"
+                            class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x"
+                            data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <div class="testimonial4_slide">
+                                        <img src="./images/clients/japu-logo.png" class="img-circle img-responsive" />
+                                        <p>" The guys did a fantastic job creating a new
+                                            website for my business. He was
+                                            friendly, and nothing was too much trouble. It was An outstanding service
+                                            that I would highly recommend, and we at Japu dreadlocks will continue to
+                                            work with him " </p>
+                                        <h4>Japu Dreadlocks -Business</h4>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="testimonial4_slide">
+                                        <img src="./images/clients/Ali Raza.jpg" class="img-circle img-responsive" />
+                                        <p>" I was impressed with the work Dev Elie did, I
+                                            was almost hitting deadlines,
+                                            and my web
+                                            crawler was 0 % implemented. A friend referred me to this awesome geek, and
+                                            my project delivered on time. Great working with Elie "
+                                        </p>
+                                        <h4>Ali Raza -Student CU University</h4>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="testimonial4_slide">
+                                        <img src="./images/male_avatar_323b.svg" class="img-circle img-responsive" />
+                                        <p>" Project Completed on time,up to standards and
+                                            unique, Impressive work "</p>
+                                        <h4>Student</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#testimonial4" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <!-- Testimonials -->
+            </div>
+            <!-- FOOTER -->
+            <label id="contact"></label>
+            <footer>
+                <a href="#" id="back2Top" title="Back to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                <div class="footer">
+
+                    <!--Content before waves-->
+                    <div class="inner-header">
+                        <h3 class="section-title text-white py-3">Find Me</h3>
+                        <div class="row text-center">
+                            <div class="col-md-4">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-map-marker fa-stack-5x"></i>
+                                </span>
+                                <p>Nairobi,Kenya</p>
+                            </div>
+
+                            <div class="col-md-4">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa fa-envelope-o fa-stack-5x"></i>
+                                </span>
+                                <p>eochieng9448@gmail.com</p>
+                            </div>
+
+                            <div class="col-md-4">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa fa-mobile fa-stack-5x"></i>
+                                </span>
+                                <p>+254768144877</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="mail-section">
+                        <a href="mailto:eochieng9448@gmail.com" class="mail-me">Send a message</a>
+                    </div>
+
+                    <!--Waves Container-->
+                    <div>
+                        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                            <defs>
+                                <path id="gentle-wave"
+                                    d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                            </defs>
+                            <g class="parallax">
+                                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                                <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                            </g>
+                        </svg>
+                    </div>
+                    <!--Waves end-->
+
+                </div>
+                <!--Header ends-->
+
+                <!--Content starts-->
+                <div class="content flex">
+                    <p class="footer-copyright">Crafted with <i class="fa fa-heart mr-1" style="color: red;"></i> by <a
+                            href="https://dev-elie.netlify.app/">Dev
+                            Elie</a>
+
+                    </p>
+                </div>
+                <!--Content ends-->
+            </footer>
+            <!--FOOTER-->
+        </div>
+
+        <!--JAVASCRIPT-->
+        <script src="./scripts/scripts.js"></script>
+</body>
+
+</html>
