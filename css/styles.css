@@ -535,6 +535,7 @@ header {
 
 .service-content h4 {
 	font-family: 'Fira Sans Condensed', sans-serif;
+	margin-bottom: 10px;
 }
 
 .service-description {
@@ -1264,6 +1265,9 @@ a.socialIcon:hover,
 		/* Footer */
 		/* Social media icons */
 		.social-media-icons {
+			text-align: center;
+		}
+		.service-content h4 {
 			text-align: center;
 		}
 	}
