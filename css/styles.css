@@ -1,5 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&family=Libre+Franklin:wght@300&family=Oswald&family=Overpass:wght@300&display=swap'); */
-
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&family=Libre+Franklin:wght@300&family=Oswald&family=Overpass:wght@300&family=Source+Sans+Pro&display=swap');
 
 /* scrollbar styling */
@@ -10,10 +8,7 @@ html {
 }
 
 body {
-    background: url(../images/overlay.png);
-    background-position: center;
-    background-size: cover;
-    background-color: #e0e0e0;
+    background: #eee;
 }
 
 :root {
@@ -21,7 +16,7 @@ body {
     scrollbar-width: auto !important;
 }
 
-
+/*CSS VARIABLES */
 /* scrollbar styling */
 
 
@@ -85,28 +80,6 @@ li {
     color: #ffff;
 }
 
-.view-project {
-    padding: 14px 24px;
-    margin-right: 1rem;
-    box-shadow: 0px 3px 8px -3px rgba(1, 1, 1, 0.5);
-    outline: none;
-    border: 0;
-    background: #2ECC71;
-    border-radius: 25px;
-    color: #fff;
-    font-weight: 400;
-    font-size: 17px;
-    text-align: center;
-    transition: 0.5s;
-    font-family: 'Overpass', sans-serif;
-}
-
-.view-project:hover {
-    background-color: #2196F3;
-    text-decoration: none;
-    color: #ffff;
-}
-
 .mail-section {
     margin-top: 4rem;
 }
@@ -149,58 +122,6 @@ li {
     opacity: 1;
     transform: rotateZ(-0deg);
 }
-
-
-/*LOADER*/
-
-.loading {
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: #292970;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: center;
-    align-content: center;
-}
-
-.load {
-    min-height: 60pt;
-}
-
-.loader {
-    width: 50pt;
-    height: 50pt;
-    border-radius: 100%;
-    border: #6767fa 4pt solid;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: transparent;
-    animation: loading 1s infinite;
-}
-
-.load-text {
-    padding-top: 15px;
-    text-align: center;
-    font: 14pt "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #fff;
-}
-
-.animate-bottom {
-    position: relative;
-    -webkit-animation-name: animatebottom;
-    -webkit-animation-duration: 1s;
-    animation-name: animatebottom;
-    animation-duration: 1s
-}
-
-#myDiv {
-    display: none;
-}
-
 
 /*NAV-BAR*/
 
@@ -361,7 +282,7 @@ header {
 .main {
     width: 100%;
     height: 100vh;
-    background-image: url("../images/main-bg.jpg");
+    background-image: url("../images/main-bg.webp");
     background-size: 100% 100%;
 }
 
@@ -444,14 +365,6 @@ header {
     padding: 5rem;
 }
 
-.about-me {
-    padding-top: 10%;
-    border-radius: 8px;
-    background: #e0e0e0;
-    box-shadow: 20px 20px 60px #bebebe,
-        -20px -20px 60px #ffffff;
-}
-
 .about-me-text {
     font-family: 'Overpass', sans-serif;
     font-size: 17px;
@@ -477,14 +390,7 @@ header {
     width: 60%;
     height: 80%;
 }
-
-
 /* Services */
-
-.services {
-    height: 100vh;
-    padding-top: 6rem;
-}
 
 .intro {
     /* top | right | bottom | left */
@@ -497,7 +403,9 @@ header {
 
 .section-title {
     text-align: center;
-    color: #111;
+    font-weight: 700;
+    color: grey;
+    letter-spacing: 3;
     position: relative;
     padding-bottom: 15px;
     margin-bottom: 2rem;
@@ -526,6 +434,10 @@ header {
     left: calc(50% - 20px);
 }
 
+.services-main {
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("../images/overlay4.jpg");
+}
+
 .services-main img {
     height: 55%;
     width: 55vw;
@@ -538,58 +450,141 @@ header {
 .service-content h4 {
     font-family: 'Fira Sans Condensed', sans-serif;
     margin-bottom: 10px;
+    font-weight: 700;
+    color: grey;
 }
 
 .service-description {
     font-family: 'Overpass', sans-serif;
     font-size: 17px;
 }
-
-
 /* PROJECTS */
 
-.img-overlay {
-    position: relative;
-    width: 100%;
-}
+.projects {}
 
-.img-overlay-image {
-    display: block;
-    width: 100%;
-    height: auto;
-    padding: 1rem;
-}
+.project-display img {}
 
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
-    margin-left: 10px;
-    margin-left: 10px;
-}
+/*Divs with left text and image on the right*/
 
-.img-overlay:hover .overlay {
-    opacity: 1;
-}
-
-.text {
-    color: white;
-    font-size: 13px;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
+.project-description {
+    margin-right: -15%;
+    padding: 2rem;
+    border-radius: 4px;
+    background: #e0e0e0;
     font-family: 'Overpass', sans-serif;
+    letter-spacing: 1;
+    font-size: 17px;
 }
+
+.project-description-title {
+    text-align: left;
+    font-weight: 700;
+    color: grey;
+    font-family: 'Fira Sans Condensed', sans-serif;
+
+}
+
+.project-description-icons a {
+    color: inherit;
+}
+
+.project-description-icons i {
+    font-size: 20px;
+    margin-top: 2rem;
+    color: ;
+}
+
+.projects .row {
+    padding: 6rem 0 6rem 0;
+}
+
+/*Divs with right text and image on the left*/
+.project-description-category-b {
+    text-align: right;
+}
+
+.project-description-b {
+    margin-left: -15%;
+    padding: 2rem;
+    border-radius: 4px;
+    background: #e0e0e0;
+    letter-spacing: 1;
+    font-size: 17px;
+    font-family: 'Overpass', sans-serif;
+
+}
+
+.project-description-title-b {
+    text-align: right;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 700;
+    color: grey;
+}
+
+.project-description-icons-b {
+    text-align: right;
+}
+
+.project-description-icons-b a {
+    color: inherit;
+}
+
+.project-description-icons-b i {
+    font-size: 20px;
+    margin-top: 2rem;
+}
+
+.tech-stack {
+    margin-right: 1rem;
+}
+
+.minor-project-card {
+    margin: 2rem;
+    padding: 3rem;
+    border-radius: 4px;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+
+}
+
+.project-description-title-minor {
+    font-weight: 700;
+    color: inherit;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.minor-project-card .header .bi-folder {
+    font-size: 50px;
+}
+
+.minor-project-card .header span {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.minor-project-external-links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.minor-project-external-links a:hover {}
+
+.minor-project-text {
+    font-family: 'Overpass', sans-serif;
+    letter-spacing: 1;
+    font-size: 17px;
+}
+
+.archive-link {
+    font-family: 'Overpass', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/*End of project showcase styling*/
+
 
 
 /* Testimonials */
@@ -613,11 +608,8 @@ header {
 .testimonial {
     min-height: 375px;
     position: relative;
-    /* background: url(https://i.ibb.co/PTJDkgb/testimonials.jpg); */
     padding-top: 50px;
     padding-bottom: 50px;
-    background-position: center;
-    background-size: cover;
 }
 
 #testimonial4 .carousel-inner:hover {
@@ -823,14 +815,8 @@ header {
 .d-quotes {
     font-size: 20px;
 }
-
-
 /* ------testimonial  close-------*/
-
-
 /* End Testimonials */
-
-
 /* WAVE SECTION */
 
 .footer {
@@ -1238,23 +1224,62 @@ a.socialIcon:hover,
 
         .author-quote {
             font-size: 1.5rem;
+            margin-top: 4rem;
         }
 
-        /* Projects */
-        .img-overlay {
-            margin: 0rem;
-        }
+        /* PROJECTS */
 
-        .overlay {
-            margin-left: 10px;
-            margin-left: 10px;
-            width: 92%;
-        }
+        /* Left text / image right*/
+        .projects {}
+
+        .project-display img {}
 
         .project-description {
+            margin-right: 0;
+            background-color: #fff;
+            padding: 0;
+        }
+
+        .project-description-title {
+            text-align: left;
+        }
+
+        .project-description-icons i {}
+
+        .projects .row {
+            padding: 1rem 0 1rem 0;
+        }
+
+        /*Divs with right text and image on the left*/
+        .project-description-category-b {}
+
+        .project-description-b {
+            margin-left: 0;
+            background-color: #fff;
+            padding: 0;
+        }
+
+        .tech-stack {
             display: none;
         }
 
+        .project-description-title-b {}
+
+        .project-description-icons-b {}
+
+        .project-description-icons-b i {}
+
+        /* minor projects*/
+        .minor-project-card {
+            margin: 5px 0 5px 0;
+            padding: 3rem;
+            border-radius: 0;
+            background: #e0e0e0;
+            box-shadow: 0;
+
+        }
+
+        /*        Testimonials */
         .testimonials p {
             font-family: 'Overpass', sans-serif;
         }
