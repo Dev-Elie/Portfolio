@@ -9,6 +9,7 @@ html {
 
 body {
     background: #eee;
+    margin: 0;
 }
 
 :root {
@@ -591,20 +592,10 @@ header {
 
 
 /*-----Testimonial-------*/
-
-.testimonial:after {
-    position: absolute;
-    top: -0 !important;
-    left: 0;
-    content: " ";
-    background: url(img/testimonial.bg-top.png);
-    background-size: 100% 100px;
-    width: 100%;
-    height: 100px;
-    float: left;
-    z-index: 99;
+.testimonials{
+    padding-top: 3rem;
+    background-image: url(../images/overlay.png);
 }
-
 .testimonial {
     min-height: 375px;
     position: relative;
@@ -817,95 +808,23 @@ header {
 }
 /* ------testimonial  close-------*/
 /* End Testimonials */
-/* WAVE SECTION */
-
-.footer {
-    position: relative;
+footer {
     text-align: center;
-    background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
-    color: white;
+    color: inherit;
+    background-image: url(../images/svg2.png);
+    margin-bottom: -2rem;
+        background-size: cover; /* size the background image at 100% like any responsive img tag */
+    background-position: center;
+    background-repeat:no-repeat;
 }
-
-.flex {
-    /*Flexbox for containers*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.inner-header{
+    padding-bottom:15%;
 }
-
-.waves {
-    position: relative;
-    width: 100%;
-    height: 15vh;
-    margin-bottom: -7px;
-    /*Fix for safari gap*/
-    min-height: 100px;
-    max-height: 150px;
-}
-
 .content {
-    position: relative;
-    height: 20vh;
     text-align: center;
-    background-color: white;
 }
-
-
-/* Animation */
-
-.parallax>use {
-    animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
-}
-
-.parallax>use:nth-child(1) {
-    animation-delay: -2s;
-    animation-duration: 7s;
-}
-
-.parallax>use:nth-child(2) {
-    animation-delay: -3s;
-    animation-duration: 10s;
-}
-
-.parallax>use:nth-child(3) {
-    animation-delay: -4s;
-    animation-duration: 13s;
-}
-
-.parallax>use:nth-child(4) {
-    animation-delay: -5s;
-    animation-duration: 20s;
-}
-
-@keyframes move-forever {
-    0% {
-        transform: translate3d(-90px, 0, 0);
-    }
-
-    100% {
-        transform: translate3d(85px, 0, 0);
-    }
-}
-
-
-/*Shrinking for mobile*/
-
-@media (max-width: 768px) {
-    .waves {
-        height: 40px;
-        min-height: 40px;
-    }
-
-    .content {
-        height: 30vh;
-    }
-}
-
 
 /*FOOTER*/
-
-
 /* Footer icons styling */
 
 .fa-stack {
@@ -934,6 +853,8 @@ header {
 
 .footer-copyright {
     font-family: 'Overpass', sans-serif;
+    font-weight: bold;
+    padding-bottom: 2rem;
 }
 
 .inner-header .text-center {
