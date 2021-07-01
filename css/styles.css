@@ -436,7 +436,7 @@ header {
 }
 
 .services-main {
-    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("../images/overlay4.jpg");
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("../images/overlay4.webp");
 }
 
 .services-main img {
@@ -594,7 +594,7 @@ header {
 /*-----Testimonial-------*/
 .testimonials{
     padding-top: 3rem;
-    background-image: url(../images/overlay.png);
+    background-image: url(../images/overlay.webp);
 }
 .testimonial {
     min-height: 375px;
@@ -811,7 +811,7 @@ header {
 footer {
     text-align: center;
     color: inherit;
-    background-image: url(../images/svg2.png);
+    background-image: url(../images/svg2.webp);
     margin-bottom: -2rem;
         background-size: cover; /* size the background image at 100% like any responsive img tag */
     background-position: center;
