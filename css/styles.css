@@ -761,9 +761,9 @@ a.socialIcon:hover,
 --------------------------------------------------------------*/
 #footer {
     background: #fff;
-    padding: 0 0 30px 0;
+    padding: 0 0 10px 0;
     color: #444444;
-    font-size: 17px;
+    font-size: 16px;
     background: #f1f6fe;
     font-family: 'Overpass', sans-serif;
 
@@ -776,9 +776,11 @@ a.socialIcon:hover,
 #footer .container i {
     color: red;
 }
-.footer-images{
+
+.footer-images {
     margin-top: -6rem;
 }
+
 #back2Top {
     width: 40px;
     line-height: 40px;
@@ -976,14 +978,14 @@ a.socialIcon:hover,
 
         }
 
-        /*        Testimonials */
-        .testimonials p {
-            font-family: 'Overpass', sans-serif;
-        }
-
         .about {
             padding: 1.5rem;
         }
+
+        .footer-text {
+            margin-top: 5rem;
+        }
+
     }
 
     @keyframes opaqTransition {
