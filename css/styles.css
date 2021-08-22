@@ -776,7 +776,9 @@ a.socialIcon:hover,
 #footer .container i {
     color: red;
 }
-
+.footer-images{
+    margin-top: -6rem;
+}
 #back2Top {
     width: 40px;
     line-height: 40px;
