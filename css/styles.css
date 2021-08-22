@@ -566,9 +566,7 @@ a.socialIcon:hover,
 
 /* PROJECTS */
 
-.projects {
-
-}
+.projects {}
 
 #img-fluid {
     max-width: 100%;
@@ -702,32 +700,33 @@ a.socialIcon:hover,
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-      position: relative;
+    position: relative;
 
     color: #444444;
     text-align: center;
     box-shadow: 0 0 30px rgba(214, 215, 216, 0.3);
     padding: 20px 0 30px 0;
-  transition: all 0.3s ease-in-out;
-  border-radius: 8px;
-  z-index: 1;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;
 }
+
 .contact .icon-box::before {
-  content: '';
-  position: absolute;
-  background: #cbe0fb;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  top: 100%;
-  transition: all 0.3s;
-  z-index: -1;
+    content: '';
+    position: absolute;
+    background: #cbe0fb;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 100%;
+    transition: all 0.3s;
+    z-index: -1;
 }
 
 .contact .icon-box:hover::before {
-  background: #106eea;
-  top: 0;
-  border-radius: 0px;
+    background: #106eea;
+    top: 0;
+    border-radius: 0px;
 }
 
 .contact .info-box i {
@@ -799,7 +798,7 @@ a.socialIcon:hover,
 
 #back2Top:hover {
     color: #fff;
-    background: #4033ff;
+    background: #2196F3;
 }
 
 #back2Top i {
