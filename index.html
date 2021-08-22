@@ -26,8 +26,12 @@
     <!--     HOVER CSS-->
     <link rel="stylesheet" rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" integrity="sha512-SJw7jzjMYJhsEnN/BuxTWXkezA2cRanuB8TdCNMXFJjxG9ZGSKOX5P3j03H6kdMxalKHZ7vlBMB4CagFP/de0A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
-    <!--     BOOTSRAP ICONS-->
+    <!--  ICONS-->
     <link rel="stylesheet" rel="preconnect" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!--ANIMATE --->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fredoka+One&family=Kanit:wght@300&display=swap" rel="stylesheet">
@@ -39,7 +43,6 @@
     <header>
         <div class="topnav" id="myTopnav">
             <a class="logo">Dev Elie</a>
-            <a href="#testimonials">Testimonials</a>
             <a href="#projects">Projects</a>
             <a href="#services">Services</a>
             <a href="#contact">Contact</a>
@@ -51,7 +54,6 @@
     <div id="navbar">
         <div class="slide-menu">
             <a class="logo">Dev Elie</a>
-            <a href="#testimonials">Testimonials</a>
             <a href="#projects">Projects</a>
             <a href="#services">Services</a>
             <a href="#contact">Contact</a>
@@ -65,8 +67,7 @@
         <table>
             <tr>
                 <td>
-                    <!-- <img src="./images/undraw_Design_thinking_re_644h(1).svg" class="landing-img-left"> -->
-                    <section>
+                    <section data-aos="zoom-in-up">
                         <h5 class="sub-title">Hi, Looking for a Developer ?</h5>
                         <h1 class="title">I'm Ondiek Elijah <br>
                             A Software Developer</h1>
@@ -91,13 +92,13 @@
     <label id="about"></label>
     <div class="about">
         <div class="row">
-            <div class="col-md-6 text-center about-me-img">
+            <div class="col-md-6 text-center about-me-img" data-aos="zoom-in" data-aos-delay="100">
                 <img src="./images/Dev-Elie.webp" alt="Dev-Elie" class="profile-img">
                 <div class="bottom-left-shape w3-hide-small">
                     <img src="./images/Designer_by46.svg">
                 </div>
             </div>
-            <div class="col-md-5 about-me">
+            <div class="col-md-5 about-me" data-aos="zoom-in" data-aos-delay="200">
                 <!--                 <div class="top-right-shape">
                         <img src="./images/undraw_Design_thinking_re_644h(1).svg">
                     </div> -->
@@ -106,8 +107,6 @@
                     I am an enthusiastic and creative software developer with experience developing web-based software. I am focused on developing and enhancing immersive, user-friendly, and feature-rich websites. I apply analytical skills and a keen eye for detail to create unique and effective web development solutions, provide technical skills and knowledge, design new websites from the ground up. I am currently available for work and looking for a new role as a fullstack developer. </p>
                 <div class="social-media-icons">
                     <ul class="social-network social-circle">
-                        <li><a href="https://www.facebook.com/ondiek.elijah/" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
-                        </li>
                         <li><a href="https://twitter.com/dev_elie" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="https://www.linkedin.com/in/ondiek-ochieng-2aaba4198/" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
                         <li><a href="https://github.com/Dev-Elie" class="icoGit" title="Github"><i class="fa fa-github"></i></a>
@@ -123,10 +122,10 @@
     <div class="services-main container-fluid">
         <h3 class="w3-center section-title">What I do</h3>
         <div class="row">
-            <div class="col-md-6 text-center">
+            <div class="col-md-6 text-center" data-aos="zoom-in-right" data-aos-delay="100">
                 <img src="./images/web-design.svg" alt="web design">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="zoom-in-left" data-aos-delay="200">
                 <div class="service-content">
                     <h4>Web Development</h4>
                     <p class="service-description">
@@ -139,10 +138,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6 text-center order-md-last">
+            <div class="col-md-6 text-center order-md-last" data-aos="zoom-in-right" data-aos-delay="300">
                 <img src="./images/data-analysis.svg" alt="data-analysis">
             </div>
-            <div class="col-md-6 order-md-first">
+            <div class="col-md-6 order-md-first" data-aos="zoom-in-left" data-aos-delay="400">
                 <div class="service-content">
                     <h4>Data Analysis</h4>
                     <p class="service-description">
@@ -155,10 +154,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6 text-center">
+            <div class="col-md-6 text-center" data-aos="zoom-in-right" data-aos-delay="500">
                 <img src="./images/web-scraping.svg" alt="web scraping">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="zoom-in-left" data-aos-delay="600">
                 <div class="service-content">
                     <h4>Web Scraping & Automation</h4>
                     <p class="service-description">
@@ -412,105 +411,53 @@
             <p class="text-center archive-link"> <a href="https://github.com/Dev-Elie?tab=repositories">Visit Archive <i class="bi bi-folder-symlink m-1"></i></a> </p>
         </div>
     </div>
-    <!-- TESTIMONIALS -->
-    <label id="testimonials"></label>
-    <div class="testimonials">
-        <h3 class="w3-center section-title">Testimonials</h3>
-        <div class="quote-2">
-            <p class="author-quote-2 m-2">“Optimism is an occupational hazard of programming: feedback
-                is the
-                treatment.”</p>
-            <p class="author"> – Kent Beck</p>
-        </div>
-        <!-- Testimonials -->
-        <section class="testimonial text-center">
-            <div class="container">
-                <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active">
-                            <div class="testimonial4_slide">
-                                <img src="./images/clients/japu-logo.webp" class="img-circle img-responsive" />
-                                <p>" The guy did a fantastic job creating a new
-                                    website for my business. He was
-                                    friendly, and nothing was too much trouble. It was An outstanding service
-                                    that I would highly recommend, and we at Japu dreadlocks will continue to
-                                    work with him " </p>
-                                <h4>Japu Dreadlocks -Business</h4>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="testimonial4_slide">
-                                <img src="./images/male_avatar_323b.svg" class="img-circle img-responsive" />
-                                <p>" I was impressed with the work Dev Elie did, I
-                                    was almost hitting deadlines a friend referred me to this awesome geek, and
-                                    my project delivered on time. Great working with Elie "
-                                </p>
-                                <h4>Student</h4>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="testimonial4_slide">
-                                <img src="./images/male_avatar_323b.svg" class="img-circle img-responsive" />
-                                <p>" Project Completed on time,up to standards and
-                                    unique, Impressive work "</p>
-                                <h4>Student</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#testimonial4" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </a>
-                </div>
-            </div>
-        </section>
-        <!-- Testimonials -->
-    </div>
-    <!-- FOOTER -->
+    <!-- CONTACT -->
     <label id="contact"></label>
-    <footer>
-        <a href="#" id="back2Top" title="Back to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
-        <div class="footer">
-            <div class="inner-header">
-                <h3 class="section-title py-3">Get In Touch
-                </h3>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-lg">
-                            <i class="fa fa-map-marker fa-stack-5x"></i>
-                        </span>
-                        <p>Nairobi,Kenya</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-lg">
-                            <i class="fa fa fa-envelope-o fa-stack-5x"></i>
-                        </span>
-                        <p>eochieng9448@gmail.com</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-lg">
-                            <i class="fa fa fa-mobile fa-stack-5x"></i>
-                        </span>
-                        <p>+254768144877</p>
-                    </div>
-                </div>
-                <div class="mail-section">
-                    <a href="mailto:eochieng9448@gmail.com" class="mail-me">Send a message</a>
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact container">
+        <h3 class="text-center section-title">Contact</h3>
+        <div class="row">
+            <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+                <div class="info-box mb-4">
+                    <i class="bx bx-map"></i>
+                    <h3>Find Me</h3>
+                    <p>Nairobi,Kenya</p>
                 </div>
             </div>
-            <p class="footer-copyright text-white">Crafted with <i class="fa fa-heart mr-1" style="color: red;"></i> by <a href="https://dev-elie.netlify.app/" class="text-white">Dev
-                    Elie</a>
-            </p>
+            <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                <div class="info-box  mb-4">
+                    <i class="bx bx-envelope"></i>
+                    <h3>Email</h3>
+                    <p>eochieng9448@gmail.com</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+                <div class="info-box  mb-4">
+                    <i class="bx bx-phone-call"></i>
+                    <h3>Call Me</h3>
+                    <p>+2547 6814 4877</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Section -->
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="footer-top">
+            <img src="./images/footer_bg.png">
+        </div>
+        <div class="container">
+            <p>Crafted with <i class="fa fa-heart mr-1"></i> by Dev Elie
         </div>
     </footer>
-    <!--FOOTER-->
-    </div>
-    <!-- BOOTSTRAP JS -->
+    <!-- End Footer -->
     <script rel="preconnect" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
     <!--FONT AWESOME-->
     <script rel="preconnect" src="https://kit.fontawesome.com/f8c35ce017.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
     <!--MAIN JAVASCRIPT-->
     <script src="./scripts/scripts.js"></script>
 </body>
