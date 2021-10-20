@@ -531,12 +531,13 @@ a.socialIcon:hover,
 }
 
 .services-main img {
-    height: 55%;
-    width: 55vw;
+    width: 100%;
 }
-
+.services-section{
+    height: 70vh;
+}
 .service-content {
-    padding: 3rem;
+    padding: 5rem;
 }
 
 .service-content h4 {
