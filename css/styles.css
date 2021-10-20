@@ -298,11 +298,13 @@ header {
 .main table td img {
     width: 70%;
     float: right;
-    height: 50%;
+    /*    height: 50%;
+*/
     pointer-events: none;
     --delay: 0s;
     animation: arrows 4s var(--delay) infinite ease-in;
     margin-right: 5rem;
+    padding-top: 3rem;
 }
 
 .main table td section {
@@ -533,9 +535,11 @@ a.socialIcon:hover,
 .services-main img {
     width: 100%;
 }
-.services-section{
+
+.services-section {
     height: 70vh;
 }
+
 .service-content {
     padding: 5rem;
 }
@@ -1119,7 +1123,7 @@ a.socialIcon:hover,
         }
 
         .services-main img {
-            height: 60%;
+            height: 100%;
             width: 80vw;
         }
 
