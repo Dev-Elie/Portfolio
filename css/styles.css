@@ -1,5 +1,3 @@
-/* scrollbar styling */
-
 *,
 html {
     scroll-behavior: smooth;
@@ -10,15 +8,11 @@ body {
     margin: 0;
     background: url(../images/body-bg.png);
 }
-
+/* scrollbar styling */
 :root {
     scrollbar-color: #4033ff !important;
     scrollbar-width: auto !important;
 }
-
-/*CSS VARIABLES */
-/* scrollbar styling */
-
 
 /*DEFAULT*/
 
@@ -144,12 +138,12 @@ header {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 15px 18px;
+    padding: 35px 18px;
     /* top | right | bottom | left  */
     text-decoration: none;
     font-size: 17px;
     transition: 0.5s;
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .topnav .logo {
@@ -158,6 +152,7 @@ header {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     color: #fff;
+    padding: 30px 18px;
     font-size: 2.2em;
     cursor: pointer;
     text-decoration: none;
@@ -1006,6 +1001,11 @@ a.socialIcon:hover,
 
         .main table td section .title {
             font-size: 3rem;
+            padding: 2rem 0 2rem 0;
+        }
+
+        .main table td section .sub-title {
+            padding: 2rem 0 0 0;
         }
 
         .main table td section p {
@@ -1017,6 +1017,7 @@ a.socialIcon:hover,
             width: 60%;
             height: 60%;
             margin-top: 0%;
+            margin-bottom: 2rem;
             pointer-events: none;
         }
 
