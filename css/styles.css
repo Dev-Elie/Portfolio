@@ -8,6 +8,7 @@ html {
 body {
     background: #eee;
     margin: 0;
+    background: url(../images/body-bg.png);
 }
 
 :root {
@@ -367,12 +368,6 @@ header {
 
 .about {
     padding: 5rem;
-    background-image: url(../images/tab_shape_bg-2.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-
-
 }
 
 .about-me-text {
@@ -534,14 +529,6 @@ a.socialIcon:hover,
     bottom: 0;
     left: calc(50% - 20px);
 }
-
-.services-main {
-    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("../images/tab_shape_bg.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
-
 
 .services-main img {
     height: 55%;
