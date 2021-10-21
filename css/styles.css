@@ -8,6 +8,7 @@ body {
     margin: 0;
     background: url(../images/body-bg.png);
 }
+
 /* scrollbar styling */
 :root {
     scrollbar-color: #4033ff !important;
@@ -919,6 +920,19 @@ a.socialIcon:hover,
     .topnav {
         background: #4033ff;
         width: 100%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .topnav a {
+        padding: 20px 18px;
+        /* top | right | bottom | left  */
+
+    }
+
+    .topnav .logo {
+        padding: 20px 18px;
+
     }
 
     .topnav a:not(:first-child),
@@ -1048,12 +1062,12 @@ a.socialIcon:hover,
         .projects .row {
             padding: 1rem 0 1rem 0;
         }
-        
+
         /* Section titles */
-        
-.section-title {
-    padding-top: 3rem;
-}
+
+        .section-title {
+            padding-top: 3rem;
+        }
 
         /*Divs with right text and image on the left*/
         .project-description-category-b {}
