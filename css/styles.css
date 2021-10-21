@@ -1048,6 +1048,12 @@ a.socialIcon:hover,
         .projects .row {
             padding: 1rem 0 1rem 0;
         }
+        
+        /* Section titles */
+        
+.section-title {
+    padding-top: 15px;
+}
 
         /*Divs with right text and image on the left*/
         .project-description-category-b {}
