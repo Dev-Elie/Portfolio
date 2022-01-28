@@ -381,14 +381,6 @@ header {
     right: -150px;
 }
 
-.bottom-left-shape img {
-    height: 40%;
-    width: 30%;
-    position: absolute;
-    bottom: -50px;
-    left: -50px;
-}
-
 .profile-img {
     width: 60%;
     height: 80%;
@@ -554,7 +546,7 @@ a.socialIcon:hover,
 
 /* PROJECTS */
 
-.projects {}
+/* .projects {} */
 
 #img-fluid {
     max-width: 100%;
