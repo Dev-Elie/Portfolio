@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--TITLE-->
+    <title>Dev Elie</title>
+    <!--ICON-->
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico" />
+    <!--META TAGS-->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="author" content="Dev Elie" />
+    <meta name="description" content="personal portfolio website" />
+    <meta
+      name="keywords"
+      content="Software,Dev Elie,Data Analysis,Web Developer,Web Development"
+    />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="Dev-Elie" />
+    <!-- JQUERY -->
+    <script src="./scripts/jquery.js"></script>
+    <!--EXTERNAL CSS-->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/w3.css" />
+    <!-- BOOTSTRAP CSS -->
+    <link
+      rel="stylesheet"
+      rel="preconnect"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!--     HOVER CSS-->
+    <link
+      rel="stylesheet"
+      rel="preconnect"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+      integrity="sha512-SJw7jzjMYJhsEnN/BuxTWXkezA2cRanuB8TdCNMXFJjxG9ZGSKOX5P3j03H6kdMxalKHZ7vlBMB4CagFP/de0A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="preconnect"
+      rel="stylesheet prefetch"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"
+    />
+    <!--  ICONS-->
+    <link
+      rel="stylesheet"
+      rel="preconnect"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--ANIMATE --->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fredoka+One&family=Kanit:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&family=Libre+Franklin:wght@300&family=Oswald&family=Overpass:wght@300&family=Source+Sans+Pro&display=swap"
+      rel="preconnect"
+    />
+  </head>
+
+  <body>
+    <!--NAV-BAR-->
+    <header>
+      <div class="topnav" id="myTopnav">
+        <a class="logo">Dev Elie</a>
+        <a href="#contact">Contact</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+
+        <a href="#about">About</a>
+        <a href="#home" class="active">Home</a>
+        <a
+          href="javascript:void(0);"
+          style="font-size: 25px"
+          class="icon"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
+      </div>
+    </header>
+    <div id="navbar">
+      <div class="slide-menu">
+        <a class="logo">Dev Elie</a>
+        <a href="#contact">Contact</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+
+        <a href="#about">About</a>
+        <a href="#home" class="active">Home</a>
+      </div>
+    </div>
+    <!--MAIN-->
+    <a id="home"></a>
+    <div class="main">
+      <table>
+        <tr>
+          <td>
+            <section>
+              <h5 class="sub-title">Hi, Looking for a Developer ?</h5>
+              <h1 class="title">
+                I'm Ondiek Elijah <br />
+                A Software Developer
+              </h1>
+              <p>Where Design and Creativity meets Expertise</p>
+              <a href="#contact" class="hire-btn">Hire Me</a>
+              <a
+                href="https://drive.google.com/file/d/1swyPdMHrllTSZThgeW0hlqaUxH50CsDt/view?usp=sharing"
+                class="download-cv-btn"
+                target="_blank"
+                >Download CV</a
+              >
+            </section>
+          </td>
+          <td>
+            <img
+              src="./images/web-dev1.webp"
+              class="inline-photo show-on-scroll w3-hide-small"
+              alt="Landing img"
+            />
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="container quote" data-aos="zoom-in" data-aos-delay="200">
+      <p class="author-quote">
+        “A designer knows he has achieved perfection not when there is nothing
+        left to add, but when there is nothing left to take away.”
+      </p>
+      <p class="author">– Antoine de Saint-Exupéry</p>
+    </div>
+    <!--ABOUT CONTAINER-->
+    <label id="about"></label>
+    <div class="about">
+      <div class="row">
+        <div
+          class="col-md-6 text-center about-me-img"
+          data-aos="fade-left"
+          data-aos-delay="200"
+        >
+          <img src="./images/me.png" alt="Dev-Elie" class="profile-img" />
+          <div class="bottom-left-shape w3-hide-small">
+            <img src="./images/Designer_by46.svg" />
+          </div>
+        </div>
+        <div
+          class="col-md-5 about-me"
+          data-aos="fade-right"
+          data-aos-delay="300"
+        >
+          <!--                 <div class="top-right-shape">
+                        <img src="./images/undraw_Design_thinking_re_644h(1).svg">
+                    </div> -->
+          <h3 class="section-title">About Me</h3>
+          <p class="about-me-text">
+            I am an enthusiastic and creative software developer with experience
+            developing web-based software. I am focused on developing and
+            enhancing immersive, user-friendly, and feature-rich websites. I
+            apply analytical skills and a keen eye for detail to create unique
+            and effective web development solutions, provide technical skills
+            and knowledge, design new websites from the ground up. I am
+            currently available for work and looking for a new role as a
+            fullstack developer.
+          </p>
+          <div class="social-media-icons">
+            <ul class="social-network social-circle">
+              <li>
+                <a
+                  href="https://twitter.com/dev_elie"
+                  class="icoTwitter"
+                  title="Twitter"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/ondiek-ochieng-2aaba4198/"
+                  class="icoLinkedin"
+                  title="Linkedin"
+                  ><i class="fa fa-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Dev-Elie"
+                  class="icoGit"
+                  title="Github"
+                  ><i class="fa fa-github"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- EXPERTISE -->
+    <label id="services"></label>
+    <!--     <div class="services"> -->
+    <div class="services-main container-fluid">
+      <h3 class="w3-center section-title">What I do</h3>
+      <div class="row services-section">
+        <div
+          class="col-md-6 text-center"
+          data-aos="zoom-in-right"
+          data-aos-delay="200"
+        >
+          <!-- <img src="./images/web-design.svg" alt="web design"> -->
+          <img src="./images/web-design.webp" class="img-fluid" alt="" />
+        </div>
+        <div class="col-md-6" data-aos="zoom-in-left" data-aos-delay="300">
+          <div class="service-content">
+            <h4>Web Development</h4>
+            <p class="service-description">
+              I am an expert in full-stack web development, with a strong
+              foundation in the Python-Flask framework, FastAPI, Expressjs,
+              React, PostgreSQL, MongoDB, and MySQL databases. I deliver current
+              and outstanding projects that equal and exceed client expectations
+              in terms of design, functionality, responsiveness and SEO
+              optimization.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row services-section">
+        <div
+          class="col-md-6 text-center order-md-last"
+          data-aos="zoom-in-right"
+          data-aos-delay="100"
+        >
+          <img
+            src="./images/data-analysis.webp"
+            alt="data-analysis"
+            class="data-analysis"
+          />
+        </div>
+        <div
+          class="col-md-6 order-md-first"
+          data-aos="zoom-in-left"
+          data-aos-delay="200"
+        >
+          <div class="service-content">
+            <h4>Technical Article Writing & Content Creation</h4>
+            <p class="service-description">
+              Aside from writing code, I help people understand code. I write
+              easy-to-understand and informative technical articles and
+              tutorials for all levels of expertise. My articles can be found on
+              Hashnode, Dev.to, and FreeCodeCamp.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row services-section">
+        <div
+          class="col-md-6 text-center"
+          data-aos="zoom-in-right"
+          data-aos-delay="500"
+        >
+          <img src="./images/web-scrapping.webp" alt="web scraping" />
+        </div>
+        <div class="col-md-6" data-aos="zoom-in-left" data-aos-delay="600">
+          <div class="service-content">
+            <h4>Web Scraping & Automation</h4>
+            <p class="service-description">
+              As a welcome additional skill set to a data analyst and for the
+              need to be dynamic and take on more cross-functional roles to help
+              grow businesses using data-driven decisions, The technical
+              know-how of web scraping and crawling comes in handy enhancing
+              efficiency. My crawling and scraping skills are concise to
+              libraries like beautiful soup and scrappy.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- PROJECTS -->
+    <label id="projects"></label>
+    <div class="container projects">
+      <h3 class="w3-center section-title">Some Things I’ve Built</h3>
+      <!-- --------------------WENGI ---------------------- -->
+      <div class="row">
+        <div class="col-md-6">
+          <div class="project-display-b">
+            <img src="./images/projects/wengi.webp" id="img-fluid" />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <p class="project-description-category-b">Featured Project</p>
+          <h4 class="project-description-title-b">Wengi Website</h4>
+          <div class="project-description-b">
+            <p class="align-middle">
+              Wengi is a Swahili word meaning "many". Many people, with the aim
+              of building around community data, democracy, internet-freedom and
+              mobile~specific solutions..
+            </p>
+          </div>
+          <div class="d-flex justify-content-end mt-3">
+            <p class="tech-stack">HTML</p>
+            <p class="tech-stack">CSS</p>
+            <p class="tech-stack">Bootstrap</p>
+            <p class="tech-stack">React</p>
+            <p class="tech-stack">Sanity</p>
+            <p class="tech-stack">GraphCMS</p>
+          </div>
+          <div class="project-description-icons-b">
+            <a href="https://memaafrica.com/"
+              ><i class="bi bi-github m-1"></i
+            ></a>
+            <a href="https://memaafrica.com/"
+              ><i class="bi bi-link-45deg m-1"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <!-- --------------------WENGI ---------------------- -->
+      <!---------------- JASIRI ----------------------->
+      <div class="row">
+        <div class="col-md-6 order-md-last">
+          <div class="project-display">
+            <img src="./images/projects/jasiri.webp" id="img-fluid" />
+          </div>
+        </div>
+        <div class="col-md-6 order-md-first">
+          <p class="project-description-category">Featured Project</p>
+          <h4 class="project-description-title">Jasiri Web App</h4>
+          <div class="project-description">
+            <p class="align-middle">
+              3rd Gen Financial System for Bold Afropreneurs. Creating a robust
+              platform, with high network effects and truly scalable
+              infrastructure, that rewards entrepreneurship among young African
+              entrepreneurs.
+            </p>
+          </div>
+          <div class="d-flex justify-content-start mt-3">
+            <p class="tech-stack">HTML</p>
+            <p class="tech-stack">CSS</p>
+            <p class="tech-stack">Bootstrap</p>
+            <p class="tech-stack">React</p>
+            <p class="tech-stack">Sanity</p>
+          </div>
+          <div class="project-description-icons">
+            <a href="https://jasiriprotocol.org/"
+              ><i class="bi bi-github m-1"></i
+            ></a>
+            <a href="https://jasiriprotocol.org/"
+              ><i class="bi bi-link-45deg m-1"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <!---------------- JASIRI ----------------------->
+      <!---------------- Memaafrica ----------------------->
+      <div class="row">
+        <div class="col-md-6">
+          <div class="project-display-b">
+            <img src="./images/projects/mema.webp" id="img-fluid" />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <p class="project-description-category-b">Featured Project</p>
+          <h4 class="project-description-title-b">Mema Africa Website</h4>
+          <div class="project-description-b">
+            <p class="align-middle">
+              Mentor Match Africa (Mema Africa) is a boutique consulting agency
+              that offers value driven marketing solutions to businesses.
+            </p>
+          </div>
+          <div class="d-flex justify-content-end mt-3">
+            <p class="tech-stack">HTML</p>
+            <p class="tech-stack">CSS</p>
+            <p class="tech-stack">Bootstrap</p>
+            <p class="tech-stack">Python</p>
+            <p class="tech-stack">MySQL</p>
+          </div>
+          <div class="project-description-icons-b">
+            <a href="https://memaafrica.com/"
+              ><i class="bi bi-github m-1"></i
+            ></a>
+            <a href="https://memaafrica.com/"
+              ><i class="bi bi-link-45deg m-1"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <!------------------ Memaafrica ------------------------->
+      <div class="row">
+        <div class="col-md-6 order-md-last">
+          <div class="project-display">
+            <img src="./images/projects/landing.webp" id="img-fluid" />
+          </div>
+        </div>
+        <div class="col-md-6 order-md-first">
+          <p class="project-description-category">Featured Project</p>
+          <h4 class="project-description-title">
+            Hostel Reach & Reservation Web App
+          </h4>
+          <div class="project-description">
+            <p class="align-middle">
+              University students hostel finder and reservation web application.
+              Served on a python backend with a MySQL database. Payment method
+              integration underway. Admin dashboard summary stats visualised
+              with chart.js.
+            </p>
+          </div>
+          <div class="d-flex justify-content-start mt-3">
+            <p class="tech-stack">HTML</p>
+            <p class="tech-stack">CSS</p>
+            <p class="tech-stack">Bootstrap</p>
+            <p class="tech-stack">Chart.js</p>
+            <p class="tech-stack">Python</p>
+            <p class="tech-stack">MySQL</p>
+          </div>
+          <div class="project-description-icons">
+            <a href="https://github.com/Dev-Elie/Hostel-Reach-and-Reservation"
+              ><i class="bi bi-github m-1"></i
+            ></a>
+            <a href="https://github.com/Dev-Elie/Hostel-Reach-and-Reservation"
+              ><i class="bi bi-link-45deg m-1"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="project-display-b">
+            <img src="./images/projects/blog.webp" id="img-fluid" />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <p class="project-description-category-b">Featured Project</p>
+          <h4 class="project-description-title-b">Blog Website</h4>
+          <div class="project-description-b">
+            <p class="align-middle">
+              A Fully functional CRUD blog Website developed using Python-Flask
+              framework with user authentication and a Comment & reply
+              functionality.
+            </p>
+          </div>
+          <div class="d-flex justify-content-end mt-3">
+            <p class="tech-stack">HTML</p>
+            <p class="tech-stack">CSS</p>
+            <p class="tech-stack">Bootstrap</p>
+            <p class="tech-stack">Python</p>
+            <p class="tech-stack">MySQL</p>
+          </div>
+          <div class="project-description-icons-b">
+            <a href="https://github.com/Dev-Elie/Teksade-Blog"
+              ><i class="bi bi-github m-1"></i
+            ></a>
+            <a href="https://develie-blog.herokuapp.com/blog/"
+              ><i class="bi bi-link-45deg m-1"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 order-md-last">
+          <div class="project-display">
+            <img src="./images/projects/gs-crawler.webp" id="img-fluid" />
+          </div>
+        </div>
+        <div class="col-md-6 order-md-first">
+          <p class="project-description-category">Featured Project</p>
+          <h4 class="project-description-title">Google Scholar Web Crawler</h4>
+          <div class="project-description">
+            <p class="align-middle">
+              An advanced web crawler for google scholar profiles for authors
+              from Coventry University. Also consists of a search engine like
+              google scholar for articles published by CU authors.
+            </p>
+          </div>
+          <div class="d-flex justify-content-start mt-3">
+            <p class="tech-stack">HTML</p>
+            <p class="tech-stack">CSS</p>
+            <p class="tech-stack">Bootstrap</p>
+            <p class="tech-stack">Python</p>
+          </div>
+          <div class="project-description-icons">
+            <a href="https://github.com/Dev-Elie/Web-Crawler-for-Google-Scholar"
+              ><i class="bi bi-github m-1"></i
+            ></a>
+            <a href="https://github.com/Dev-Elie/Web-Crawler-for-Google-Scholar"
+              ><i class="bi bi-link-45deg m-1"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <!-- Other Noteworthy Projects-->
+      <h3 class="w3-center section-title">Other Noteworthy Projects</h3>
+      <div class="w3-row">
+        <div class="w3-third" data-aos="zoom-in" data-aos-delay="100">
+          <div class="minor-project-card hvr-float hvr-sweep-to-left">
+            <div class="d-flex justify-content-between header">
+              <i class="bi bi-folder m-1"></i>
+              <span class="minor-project-external-links">
+                <a href="https://github.com/Dev-Elie/Simple-Web-Crawler"
+                  ><i class="bi bi-github m-1"></i
+                ></a>
+                <a href="https://scrap-the-web.herokuapp.com/"
+                  ><i class="bi bi-link-45deg m-1"></i
+                ></a>
+              </span>
+            </div>
+            <h4 class="project-description-title-minor">Web Scrapper</h4>
+            <p class="minor-project-text">
+              A simple web crawler built using python-flask and beautiful soup
+              that extracts elements using tag names,provided a URL.
+            </p>
+            <div class="d-flex justify-content-end mt-3">
+              <p class="tech-stack">HTML</p>
+              <p class="tech-stack">CSS</p>
+              <p class="tech-stack">Bootstrap</p>
+              <p class="tech-stack">Python</p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-third" data-aos="zoom-in" data-aos-delay="300">
+          <div class="minor-project-card hvr-float hvr-sweep-to-left">
+            <div class="d-flex justify-content-between header">
+              <i class="bi bi-folder m-1"></i>
+              <span class="minor-project-external-links">
+                <a href="https://dev-elie-markdown-previewer.netlify.app/"
+                  ><i class="bi bi-github m-1"></i
+                ></a>
+                <a href="https://dev-elie-markdown-previewer.netlify.app/"
+                  ><i class="bi bi-link-45deg m-1"></i
+                ></a>
+              </span>
+            </div>
+            <h4 class="project-description-title-minor">Markdown Previewer</h4>
+            <p class="minor-project-text">
+              A markdown previewer application built using React and Bootstrap5
+            </p>
+            <div class="d-flex justify-content-end mt-3">
+              <p class="tech-stack">HTML</p>
+              <p class="tech-stack">CSS</p>
+              <p class="tech-stack">Bootstrap</p>
+              <p class="tech-stack">React</p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-third" data-aos="zoom-in" data-aos-delay="500">
+          <div class="minor-project-card hvr-float hvr-sweep-to-left">
+            <div class="d-flex justify-content-between header">
+              <i class="bi bi-folder m-1"></i>
+              <span class="minor-project-external-links">
+                <a
+                  href="https://github.com/Dev-Elie/Search-Weather-Wordnet-Location-Web-App"
+                  ><i class="bi bi-github m-1"></i
+                ></a>
+                <a
+                  href="https://github.com/Dev-Elie/Search-Weather-Wordnet-Location-Web-App"
+                  ><i class="bi bi-link-45deg m-1"></i
+                ></a>
+              </span>
+            </div>
+            <h4 class="project-description-title-minor">
+              Q & A,Weather,Synonym & Location Finder App
+            </h4>
+            <p class="minor-project-text">
+              A all in one Search application,Weather finder,Wordnet
+              Synonym/Antonym App and a Location finder application. Implemented
+              using python Flask.
+            </p>
+            <div class="d-flex justify-content-end mt-3">
+              <p class="tech-stack">HTML</p>
+              <p class="tech-stack">CSS</p>
+              <p class="tech-stack">Bootstrap</p>
+              <p class="tech-stack">Python</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--         OTHER PROJECTS R-2 -->
+      <div class="w3-row">
+        <div class="w3-third" data-aos="zoom-in" data-aos-delay="100">
+          <div class="minor-project-card hvr-float hvr-sweep-to-left">
+            <div class="d-flex justify-content-between header">
+              <i class="bi bi-folder m-1"></i>
+              <span class="minor-project-external-links">
+                <a href="https://github.com/Dev-Elie/Todo-App---React-and-Flask"
+                  ><i class="bi bi-github m-1"></i
+                ></a>
+                <a href="https://github.com/Dev-Elie/Todo-App---React-and-Flask"
+                  ><i class="bi bi-link-45deg m-1"></i
+                ></a>
+              </span>
+            </div>
+            <h4 class="project-description-title-minor">ToDo App</h4>
+            <p class="minor-project-text">
+              A ToDo web application that I made during my 100 days of code
+              while learning React. Served on a Python backend with a React js
+              frontend.
+            </p>
+            <div class="d-flex justify-content-end mt-3">
+              <p class="tech-stack">HTML</p>
+              <p class="tech-stack">Bootstrap</p>
+              <p class="tech-stack">React</p>
+              <p class="tech-stack">Python</p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-third" data-aos="zoom-in" data-aos-delay="300">
+          <div class="minor-project-card hvr-float hvr-sweep-to-left">
+            <div class="d-flex justify-content-between header">
+              <i class="bi bi-folder m-1"></i>
+              <span class="minor-project-external-links">
+                <a href="https://github.com/Dev-Elie/Quote-Machine"
+                  ><i class="bi bi-github m-1"></i
+                ></a>
+                <a href="https://dev-elie-quotemachine.netlify.app/"
+                  ><i class="bi bi-link-45deg m-1"></i
+                ></a>
+              </span>
+            </div>
+            <h4 class="project-description-title-minor">
+              Random Quote Machine
+            </h4>
+            <p class="minor-project-text">
+              A Random Quote Machine I built using React Js during my 100 days
+              of code. at freeCodeCamp learning 'Frontend Development
+              Libraries'.
+            </p>
+            <div class="d-flex justify-content-end mt-3">
+              <p class="tech-stack">HTML</p>
+              <p class="tech-stack">CSS</p>
+              <p class="tech-stack">Bootstrap</p>
+              <p class="tech-stack">React</p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-third" data-aos="zoom-in" data-aos-delay="500">
+          <div class="minor-project-card hvr-float hvr-sweep-to-left">
+            <div class="d-flex justify-content-between header">
+              <i class="bi bi-folder m-1"></i>
+              <span class="minor-project-external-links">
+                <a href="https://github.com/Dev-Elie/Drum-Machine"
+                  ><i class="bi bi-github m-1"></i
+                ></a>
+                <a href="https://dev-elie-drum-machine.netlify.app/"
+                  ><i class="bi bi-link-45deg m-1"></i
+                ></a>
+              </span>
+            </div>
+            <h4 class="project-description-title-minor">Drum Machine</h4>
+            <p class="minor-project-text">
+              A Drum-Machine; Piano like that I built using React Js during my
+              100 days of code. at freeCodeCamp learning 'Frontend Development
+              Libraries' .
+            </p>
+            <div class="d-flex justify-content-end mt-3">
+              <p class="tech-stack">HTML</p>
+              <p class="tech-stack">CSS</p>
+              <p class="tech-stack">Bootstrap</p>
+              <p class="tech-stack">React</p>
+            </div>
+          </div>
+        </div>
+        <p class="text-center archive-link">
+          <a href="https://github.com/Dev-Elie?tab=repositories"
+            >Visit Archive <i class="bi bi-folder-symlink m-1"></i
+          ></a>
+        </p>
+      </div>
+    </div>
+    <!-- CONTACT -->
+    <label id="contact"></label>
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact container">
+      <h3 class="text-center section-title">Let's chat</h3>
+      <div class="row">
+        <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+          <div class="info-box mb-4">
+            <i class="bx bx-map"></i>
+            <h3>Find Me</h3>
+            <p>Nairobi,Kenya</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+          <div class="info-box mb-4">
+            <i class="bx bx-envelope"></i>
+            <h3>Email</h3>
+            <p>eochieng9448@gmail.com</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+          <div class="info-box mb-4">
+            <i class="bx bx-phone-call"></i>
+            <h3>Call/Whatsapp</h3>
+            <p>+2547 6814 4877</p>
+          </div>
+        </div>
+      </div>
+      <div class="row" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-6 mx-auto">
+          <img src="./images/programming.svg" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <a href="#" id="back2Top" title="Back to top"
+        ><i class="fa fa-chevron-up" aria-hidden="true"></i
+      ></a>
+      <div class="footer-top">
+        <img src="./images/footer_bg.png" />
+        <div class="footer-images">
+          <img src="./images/bike.png" class="w3-hide-small" />
+        </div>
+      </div>
+      <div class="container">
+        <p class="footer-text">
+          Crafted with <i class="fa fa-heart mr-1"></i> by Dev Elie
+        </p>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <script
+      rel="preconnect"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+      integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
+      crossorigin="anonymous"
+    ></script>
+    <!--FONT AWESOME-->
+    <script
+      rel="preconnect"
+      src="https://kit.fontawesome.com/f8c35ce017.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!--MAIN JAVASCRIPT-->
+    <script src="./scripts/scripts.js"></script>
+  </body>
+</html>
