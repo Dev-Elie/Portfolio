@@ -554,14 +554,14 @@ a.socialIcon:hover,
 
 /* PROJECTS */
 
-.projects {}
+/* .projects {} */
 
 #img-fluid {
     max-width: 100%;
     height: auto;
 }
 
-.project-display img {}
+/* .project-display img {} */
 
 /*Divs with left text and image on the right*/
 
@@ -668,7 +668,7 @@ a.socialIcon:hover,
     color: inherit;
 }
 
-.minor-project-external-links a:hover {}
+/* .minor-project-external-links a:hover {} */
 
 .minor-project-text {
     font-family: 'Overpass', sans-serif;
